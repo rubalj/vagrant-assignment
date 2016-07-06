@@ -1,0 +1,6 @@
+
+- name: playbook to setup nginx
+  hosts: servers
+  sudo: yes
+  roles:
+    - nginx
